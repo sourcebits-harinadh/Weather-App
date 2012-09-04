@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clockLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.sourcebits.weatherapp.customcomponents.MyAnalogClock
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/clock"
+        style="@style/clock"
+        android:layout_width="140dp"
+        android:layout_height="140dp" />
+
+    <TextView
+        android:id="@+id/clockTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clock"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">WeatherApp</string>
+    <string name="hello_world">Hello world!</string>
+      <string name="select_location">Select Location</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_weather_home">WeatherHomeActivity</string>
+    <string name="title_activity_locations">LocationsActivity</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="app_settings">App Settings</string>
+    <string name="weather_services">Weather Services</string>
+    <string name="gps">GPS</string>
+    <string name="turn_on">Turn On</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="search_hint_text">Enter Location Name</string>
+    <string name="locations_text">Locations</string>
+    <string name="weather_text">Weather</string>
+    <string name="map_text">Map</string>
+    <string name="settings_text">Settings</string>
+    <string name="tab_text">Tab</string>
+    <string name="add_text">Add</string>
+    <string name="enter_location_text">Please enter a location name</string>
+    <string name="enter_three_letters_text">Please enter at least three letters</string>
+     <string name="loading_locations_text">Loading locations</string>
+    <string name="loading_text">Loading weather information.</string>
+    <string name="network_error_text">No network available.Please enable the network connections.</string>
+    <string name="location_texts">Location :</string>
+    <string name="obserVationTime">Observed Time :</string>
+    <string name="Temparature_c">Temperature in C :</string>
+    <string name="Temparature_f">Temperature in F :</string>
+    <string name="humidity">Humidity :</string>
+    <string name="max_temparature">Max Temperature :</string>
+    <string name="min_temparature">Min Temperature :</string>
+    <string name="wind_direction">Wind Direction :</string>
+    <string name="wind_direction_16point">Wind Direction 16 Point:</string>
+    <string name="wind_direction_degree">Wind Direction Degree:</string>
+    <string name="wind_speed">Wind Speed:</string>
+    <string name="day1_text">Day One</string>
+    <string name="day2_text">Day Two</string>
+    <string name="day3_text">Day Three</string>
+    <string name="day4_text">Day Four</string>
+    <string name="day5_text">Day Five</string>
+    <string name="wind_speed_in_miles">Wind Speed in Miles:</string>
+    <string name="wind_speed_in_kmph">Wind Speed in KMPH:</string>
+
+</resources>

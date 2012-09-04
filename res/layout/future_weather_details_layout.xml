@@ -1,0 +1,284 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="false"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black" >
+
+        <TextView
+            android:id="@+id/locationHeader1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/hello_world"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/stausLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/locationHeader1"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:id="@+id/statusImg1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/description1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/statusImg1"
+                android:text="@string/hello_world"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/description1"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/statusImg1"
+                android:text="@string/hello_world"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/weatherDetails1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stausLayout1"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/maxTemprature1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="right"
+                    android:text="@string/max_temparature"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/maxTempratureValue1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.5"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/minTemprature1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="right"
+                    android:text="@string/min_temparature"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/minTempratureValue1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.5"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/windDirection1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="right"
+                    android:text="@string/wind_direction"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/windDirectionValue1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.5"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/windDirDegree1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="right"
+                    android:text="@string/wind_direction_degree"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/windDirDegreeValue1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.5"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/windDir16Point"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="right"
+                    android:text="@string/wind_direction_16point"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/windDir16PointValue1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.5"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/windSpeed1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="right"
+                    android:text="@string/wind_speed_in_kmph"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/windSpeedValue1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.5"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/windSpeedinMiles1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="right"
+                    android:text="@string/wind_speed_in_miles"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/windSpeedinMiles1Value1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.5"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

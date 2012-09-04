@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weatherDesripLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/red"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/locName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:text="@string/location_texts"
+            android:textColor="@color/white"
+            android:textSize="16dp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/locNameValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/obserTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:text="@string/obserVationTime"
+            android:textColor="@color/white"
+            android:textSize="16dp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/obserTimeValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/tempC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:text="@string/Temparature_c"
+            android:textColor="@color/white"
+            android:textSize="16dp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tempCValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/tempF"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:text="@string/Temparature_f"
+            android:textColor="@color/white"
+            android:textSize="16dp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tempFValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/humidity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:text="@string/humidity"
+            android:textColor="@color/white"
+            android:textSize="16dp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/humidityValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

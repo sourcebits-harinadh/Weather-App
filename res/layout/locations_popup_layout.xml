@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/locationsListHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/select_location"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/locationsList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cancel1"
+        android:layout_below="@+id/locationsListHeader" >
+    </ListView>
+
+    <Button
+        android:id="@+id/cancel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Cancel" />
+
+</RelativeLayout>

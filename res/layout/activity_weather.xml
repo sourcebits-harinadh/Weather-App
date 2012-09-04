@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlue"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/weatherPager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.sourcebits.weatherapp.customcomponents.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" />
+
+    <!--
+         <android.support.v4.view.ViewPager
+        android:id="@+id/weatherPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    -->
+
+
+    <!--
+    <LinearLayout
+        android:id="@+id/toggleButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red" >
+
+        <ToggleButton
+            android:id="@+id/dayOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:soundEffectsEnabled="true"
+            android:textOff="@string/day1_text"
+            android:textOn="@string/day1_text" />
+
+        <ToggleButton
+            android:id="@+id/dayTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:soundEffectsEnabled="true"
+            android:textOff="@string/day2_text"
+            android:textOn="@string/day2_text" />
+
+        <ToggleButton
+            android:id="@+id/dayThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:soundEffectsEnabled="true"
+            android:textOff="@string/day3_text"
+            android:textOn="@string/day3_text" />
+
+        <ToggleButton
+            android:id="@+id/dayFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:soundEffectsEnabled="true"
+            android:textOff="@string/day4_text"
+            android:textOn="@string/day4_text" />
+
+        <ToggleButton
+            android:id="@+id/dayFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:soundEffectsEnabled="true"
+            android:textOff="@string/day5_text"
+            android:textOn="@string/day5_text" />
+    </LinearLayout>
+    -->
+
+</LinearLayout>
